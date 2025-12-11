@@ -8,7 +8,8 @@
 | Parameter   | Resource Allocation | VRAM Requirement Description                                 |
 | ----------- | ------------------- | ------------------------------------------------------------ |
 | **`-m 0`**  | GPU-only            | Requires **over 12GB** of VRAM                               |
-| **`-m 1`**  | GPU-only            | Requires **over 8GB** of VRAM                                |、
+| **`-m 1`**  | GPU-only            | Requires **over 8GB** of VRAM                                |
+| **`-m 2`**  | GPU-only            | Requires **over 7GB** of VRAM                                |
 | **`-m 20`** | Hybrid (GPU + CPU)  | Allocates approx. **3GB** of VRAM per instance. Should be used with the `-t N` by setting the number of concurrent instances `N`, ensuring that `3 * N`does not exceed total VRAM. **The default value is `N=3`**.|
 
 ## **📌 Mining Tutorial**  
